@@ -1,0 +1,93 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOnIgUYfusjk7guOvHpyRZW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/viett887g/baitappython/blob/main/baitappython\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cYveE5jREd_N",
+        "outputId": "64c8f406-3269-47ba-8963-d9f74ddd742b"
+      },
+      "source": [
+        "int(input(\"Nhập vào một số:\"))\n",
+        "if(n>=0):\n",
+        "  print(\"duong\")\n",
+        "elif(n<0):\n",
+        "  print(\"am\")"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nhập vào một số:5\n",
+            "duong\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_JyHtDfgGNq8",
+        "outputId": "8120aad3-194d-4787-b7db-efe5e921f979"
+      },
+      "source": [
+        "m= int(input(\"nhap vao ba so:\"))\n",
+        "n= int(input(\"nhap vao ba so:\"))\n",
+        "x= int(input(\"nhap vao ba so:\"))\n",
+        "if(m>n) and (m>x):\n",
+        "  print('m')\n",
+        "elif(n>m) and (n>x):\n",
+        "  print(\"n\")\n",
+        "elif(x>m) and (x>m):\n",
+        "  print(\"x\")\n"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nhap vao ba so:2\n",
+            "nhap vao ba so:3\n",
+            "nhap vao ba so:5\n",
+            "x\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
